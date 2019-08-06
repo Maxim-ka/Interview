@@ -19,9 +19,6 @@ public class ConvertToKMPerHourToMOfSecondTest {
 			{5.0f, 1.38f},
 			{10.0f, 2.77f},
 			{50.0f, 13.88f},
-			{72.0f, 20.0f},
-			{83.0f, 23.05f},
-			{910.0f, 252.77f},
 		});
 	}
 
