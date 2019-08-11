@@ -26,18 +26,8 @@ public class OutPutReport implements Outputable{
             outPutReport = new OutPutReport();
         }
 
-        public Builder addPrint(PrintReport printReport){
-            outPutReport.setDerivable(printReport);
-            return this;
-        }
-
-        public Builder addDisplay(DisplayReport displayReport){
-            outPutReport.setDerivable(displayReport);
-            return this;
-        }
-
-        public Builder addFile(SaveFileReport fileReport){
-            outPutReport.setDerivable(fileReport);
+        public Builder addOutput(Derivable derivable){
+            outPutReport.setDerivable(derivable);
             return this;
         }
 
@@ -45,5 +35,4 @@ public class OutPutReport implements Outputable{
             return outPutReport;
         }
     }
-
 }
